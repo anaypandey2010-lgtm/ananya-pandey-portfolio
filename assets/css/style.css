@@ -492,6 +492,39 @@ h1, h2, h3, h4 {
 }
 
 /* ============================================================
+   CORE SKILLS
+   ============================================================ */
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-row {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+}
+
+.skills-row:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-label {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text);
+  padding-top: 4px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ============================================================
    CONTENT / VIDEO reel cards
    ============================================================ */
 .reel-layout {
@@ -511,6 +544,7 @@ h1, h2, h3, h4 {
 
 .reel-card {
   position: relative;
+  width: 100%;
   border-radius: 20px;
   overflow: hidden;
   aspect-ratio: 9 / 16;
@@ -1051,6 +1085,11 @@ footer {
   .credentials {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .skills-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .reel-layout, .reel-layout.reverse {
