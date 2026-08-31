@@ -12,10 +12,10 @@
   --text: #f4f2ec;
   --text-dim: #a9a7a1;
   --text-faint: #726f68;
-  --accent: #d8a24a;
-  --accent-bright: #f0bd66;
-  --accent-soft: rgba(216, 162, 74, 0.12);
-  --accent-soft-strong: rgba(216, 162, 74, 0.22);
+  --accent: #e8a3bd;
+  --accent-bright: #f5bcd1;
+  --accent-soft: rgba(232, 163, 189, 0.12);
+  --accent-soft-strong: rgba(232, 163, 189, 0.22);
 
   --max-w: 1180px;
   --radius: 14px;
