@@ -13,3 +13,4 @@
 # Node (not currently used, ignored for safety)
 node_modules/
 npm-debug.log*
+.env*
