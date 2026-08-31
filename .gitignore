@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# Editor / tooling
+.claude/
+.vercel
+
+# Node (not currently used, ignored for safety)
+node_modules/
+npm-debug.log*
